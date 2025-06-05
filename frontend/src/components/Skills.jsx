@@ -17,15 +17,15 @@ function Skills() {
   const [skills, setSkills] = useState([]);
 
   const defaultSkills = [
-    { _id: '1', name: 'MERN Stack', proficiency: 'Advanced', icon: <FaReact className="w-8 h-8" /> },
-    { _id: '2', name: 'Node.js', proficiency: 'Advanced', icon: <FaNodeJs className="w-8 h-8" /> },
+    { _id: '1', name: 'MERN Stack', proficiency: 'Intermediate', icon: <FaReact className="w-8 h-8" /> },
+    { _id: '2', name: 'Node.js', proficiency: 'Intermediate', icon: <FaNodeJs className="w-8 h-8" /> },
     { _id: '3', name: 'MongoDB', proficiency: 'Advanced', icon: <SiMongodb className="w-8 h-8" /> },
-    { _id: '4', name: 'Express.js', proficiency: 'Advanced', icon: <SiExpress className="w-8 h-8" /> },
+    { _id: '4', name: 'Express.js', proficiency: 'Intermediate', icon: <SiExpress className="w-8 h-8" /> },
     { _id: '5', name: 'DBMS', proficiency: 'Intermediate', icon: <FaDatabase className="w-8 h-8" /> },
     { _id: '6', name: 'DevOps', proficiency: 'Beginner', icon: <FaDocker className="w-8 h-8" /> },
-    { _id: '7', name: 'Git', proficiency: 'Advanced', icon: <FaGitAlt className="w-8 h-8" /> },
-    { _id: '8', name: 'JavaScript', proficiency: 'Advanced', icon: <FaJsSquare className="w-8 h-8" /> },
-    { _id: '9', name: 'HTML5', proficiency: 'Advanced', icon: <FaHtml5 className="w-8 h-8" /> },
+    { _id: '7', name: 'Git', proficiency: 'Beginner', icon: <FaGitAlt className="w-8 h-8" /> },
+    { _id: '8', name: 'JavaScript', proficiency: 'Intermediate', icon: <FaJsSquare className="w-8 h-8" /> },
+    { _id: '9', name: 'HTML5', proficiency: 'Intermediate', icon: <FaHtml5 className="w-8 h-8" /> },
     { _id: '10', name: 'CSS3', proficiency: 'Advanced', icon: <FaCss3Alt className="w-8 h-8" /> },
     { _id: '11', name: 'Tailwind CSS', proficiency: 'Intermediate', icon: <SiTailwindcss className="w-8 h-8" /> },
     { _id: '12', name: 'MySQL', proficiency: 'Intermediate', icon: <SiMysql className="w-8 h-8" /> },
