@@ -9,8 +9,9 @@ import {
   FaJsSquare,
   FaHtml5,
   FaCss3Alt,
+  
 } from 'react-icons/fa';
-import { SiMongodb, SiExpress, SiTailwindcss } from 'react-icons/si';
+import { SiMongodb, SiExpress, SiTailwindcss, SiMysql } from 'react-icons/si';
 
 function Skills() {
   const [skills, setSkills] = useState([]);
@@ -27,6 +28,8 @@ function Skills() {
     { _id: '9', name: 'HTML5', proficiency: 'Advanced', icon: <FaHtml5 className="w-8 h-8" /> },
     { _id: '10', name: 'CSS3', proficiency: 'Advanced', icon: <FaCss3Alt className="w-8 h-8" /> },
     { _id: '11', name: 'Tailwind CSS', proficiency: 'Intermediate', icon: <SiTailwindcss className="w-8 h-8" /> },
+    { _id: '12', name: 'MySQL', proficiency: 'Intermediate', icon: <SiMysql className="w-8 h-8" /> },
+
   ];
 
   useEffect(() => {
